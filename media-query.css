@@ -58,7 +58,7 @@
   }
 }
 
-@media (max-width: 491px) {
+@media (max-width: 500px) {
   .hero-section .left {
     width: 100%;
     padding-inline: 8px;

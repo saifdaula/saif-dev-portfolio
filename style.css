@@ -17,7 +17,12 @@
 
 .container {
   overflow: hidden;
+  pad
 }
+
+.pad-in-5rem {
+  padding-inline: 5rem;
+} 
 
 body {
   background-color: var(--accent-dark-color);
@@ -113,11 +118,11 @@ nav li {
   padding: 10px 17px;
   font-family: barlow, arial;
   font-size: 15px;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
 .contact-btn:hover {
   background: linear-gradient(to left top, rgb(122, 181, 204), grey );
-  font-size: 15.5px;
+  font-size: 15.2px;
 }
 
 .contact-btn li {
@@ -208,10 +213,23 @@ nav li {
 .main-hr {
   width: 88%;
   margin: auto;
-  margin-block: 7rem;
+  margin-top: 7rem;
   background: rgb(84, 129, 146);
   border: 0;
   height: 1.55px;
+}
+
+/*section-2*/
+
+.section-2 {
+  padding-block: 4rem;
+  width: 85%;
+  margin: auto;
+}
+
+.section-2 h1 {
+  font-size: 2.5rem;
+  color: rgb(194, 194, 194);
 }
 
 /*footer*/
@@ -226,18 +244,15 @@ footer {
   height: 10rem;
   box-shadow: 0px 0px 8px var(--accent-color);
   padding-inline: var(--padding-inline);
-  padding-block: 2.4rem;
+  padding-top: 2.4rem;
+  padding-bottom: 3.5rem;
 }
 
 footer .logo {
   color: rgb(212, 212, 212);
   font-size: 2.2rem;
   text-align: center;
-  margin-bottom: 15px;
-}
-
-.footer-links {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .footer-ul {
@@ -262,7 +277,7 @@ footer li:hover {
   align-items: center;
   justify-content: center;
   gap: 21px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .footer-social-links i {
