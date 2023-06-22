@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Fraunces:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+/*utilities*/
+
+:root {
+  --accent-dark-color: rgb(13, 22, 26);
+  --accent-color: rgb(19, 76, 100);
+  --hover-color: rgb(255, 255, 255);
+  --padding-inline: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container {
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--accent-dark-color);
+}
+
+p {
+  color: rgb(200, 201, 201);
+  font-family: poppins, Roboto, Arial;
+}
+
+span {
+  color: rgb(207, 216, 220);
+}
+
+h1 {
+  color: rgb(207, 216, 220);
+  font-family: poppins, ubuntu, Roboto;
+}
+
+h2 {
+  color: rgb(207, 216, 220);
+}
+
+h3 {
+  color: rgb(207, 216, 220);
+}
+
+a {
+  text-decoration: none;
+  font-family: barlow, roboto, sans-serif;
+}
+
+li {
+  color: rgb(200, 201, 201);
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+img {
+  user-select: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: row;
+}
+
+/*nav*/
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background: linear-gradient(to right, rgb(24, 42, 70), var(--accent-color));
+  height: 70px;
+  box-shadow: 0px 0px 30px var(--accent-color);
+}
+
+.logo {
+  font-size: 1.55rem;
+  font-weight: 600;
+  user-select: none;
+}
+
+nav ul {
+  gap: 2.5rem;
+  align-items: center;
+}
+
+nav li:hover {
+  color: var(--hover-color);
+}
+
+nav li {
+  transition: 0.2s all ease-in-out;
+  font-weight: 500;
+}
+
+.hamburger {
+  display: none;
+  font-size: 22.5px;
+}
+
+.contact-btn {
+  background: linear-gradient(to right bottom, skyblue, grey );
+  border: none;
+  border-radius: 17px;
+  padding: 10px 17px;
+  font-family: barlow, arial;
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+}
+.contact-btn:hover {
+  background: linear-gradient(to left top, rgb(122, 181, 204), grey );
+  font-size: 15.5px;
+}
+
+.contact-btn li {
+  color: rgb(22, 22, 22);
+  font-weight: 700;
+}
+
+.contact-btn li:hover {
+  color: rgb(36, 36, 36);
+}
+
+/*main section*/
+
+.hero-section {
+  justify-content: space-around;
+  padding-inline: 30px;
+  font-size: 2.47rem;
+  font-family: poppins, Ubuntu, roboto;
+  color: rgb(194, 194, 194);
+  font-weight: 500;
+  margin-block: 6rem;
+  align-items: center;
+}
+
+.hero-section .left {
+  width: 40%;
+}
+
+.hero-section .left .name {
+  font-size: 2.97rem;
+  font-weight: 500;
+  color: rgb(111, 179, 206);
+  text-shadow: 0px 0px 2px rgb(111, 179, 206);
+  text-transform: uppercase;
+  font-family: ubuntu, roboto, arial;
+}
+
+.hero-section .left .line-2 {
+  font-size: 2.22rem;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+.hero-section .right {
+  width: 40%;
+}
+
+.hero-section .right img {
+  width: 100%;
+}
+
+#element {
+  color: rgb(111, 179, 206);
+  font-family: ubuntu, barlow, sans-serif;
+}
+
+.btns {
+  margin-top: 25px;
+  gap: 20px;
+  display: flex;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  gap: 12px;
+  text-transform: uppercase;
+  font-size: 1.33rem;
+  font-family: Source Sans Pro, Roboto, Arial;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+  background: linear-gradient(
+    to right bottom,
+    rgb(95, 157, 182),
+    rgb(13, 68, 112)
+  );
+}
+
+.btn:hover {
+  background: linear-gradient(to left top, rgb(95, 157, 182), rgb(13, 68, 112));
+  padding: 11px 21px;
+  box-shadow: 0 0 4px rgb(95, 95, 95);
+}
+
+.main-hr {
+  width: 88%;
+  margin: auto;
+  margin-block: 7rem;
+  background: rgb(84, 129, 146);
+  border: 0;
+  height: 1.55px;
+}
+
+/*footer*/
+
+footer {
+  background: linear-gradient(
+    to bottom right,
+    rgb(24, 42, 70),
+    var(--accent-color)
+  );
+  overflow: hidden;
+  height: 10rem;
+  box-shadow: 0px 0px 8px var(--accent-color);
+  padding-inline: var(--padding-inline);
+  padding-block: 2.4rem;
+}
+
+footer .logo {
+  color: rgb(212, 212, 212);
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-ul {
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer li {
+  color: rgb(240, 240, 240);
+  font-weight: 500;
+  font-size: 1.09rem;
+  transition: 0.25s ease-in-out;
+}
+
+footer li:hover {
+  color: rgb(182, 182, 182);
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 60px;
+}
+
+.footer-social-links i {
+  -webkit-text-fill-color: rgb(192, 191, 191);
+  font-size: 23px;
+  transition: 0.25s  smooth all ease-in-out;
+}
+
+.footer-social-links i:hover {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  font-size: 27.5px;
+  box-shadow: 0 0 5px black;
+}

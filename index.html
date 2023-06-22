@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <script src="https://kit.fontawesome.com/1c35bc4772.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Fraunces:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!--todo add favicon-->
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>SAIF - Dev Portfolio</title>
+</head>
+
+<body>
+    <nav class="flex">
+        <div class="left">
+            <p class="logo">Portfolio<span>.</span></p>
+        </div>
+        <div class="right">
+            <div class="nav-links-container">
+                <ul class="nav-links flex-col">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Services</li>
+                    </a>
+                    <a href="#">
+                        <button class="contact-btn"><li>Contact</li></button>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="hamburger">
+            <i class="bars fa-solid fa-bars" style="color: #a8a8a8;"></i>
+        </div>
+    </nav>
+
+    <section class="hero-section flex container">
+        <div class="left">
+            Hi, I am <span class="name">SAIF</span>
+            <div class="line-2">I am a passionate</div>
+            <span id="element"></span>
+
+            <div class="btns flex">
+                <a href="https://github.com/saifdaula" target="_blank"><button class="btn-1 btn">GitHub <i
+                            class="fa-brands fa-github" style="color: #ffffff;"></i></button></a>
+
+                <a href="#"><button class="btn-2 btn">About Me <i class="fa-solid fa-user"
+                            style="color: #ffffff;"></i></button></a></button></a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/web-dev.png" alt="">
+        </div>
+    </section>
+
+    <hr class="main-hr">
+
+    <footer>
+        <p class="logo">Portfolio<span>.</span></p>
+        <div class="footer-links">
+            <ul class="flex footer-ul">
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Services</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="footer-social-links">
+            <a href="https://web.facebook.com/saifdaula47" target="_blank"><i class="fa-brands fa-facebook fa-xl"
+                    style="color: #dedede;"></i></a>
+            <a href="https://instagram.com/saifdaula47" target="_blank"><i class="fa-brands fa-instagram fa-xl"
+                    style="color: #dedede;"></i></a>
+            <a href="https://twitter.com/saifdaula47" target="_blank"><i class="fa-brands fa-twitter fa-xl"
+                    style="color: #dedede;"></i></a>
+            <a href="https://www.linkedin.com/in/saif-ahsan-3a9786241" target="_blank"><i
+                    class="fa-brands fa-linkedin-in fa-xl" style="color: #dedede;"></i></a>
+            <a href="https://github.com/saifdaula" target="_blank"><i class="fa-brands fa-github fa-xl"
+                    style="color: #dedede;"></i></i></a>
+            <a href="https://youtube.com/@saifdaula47" target="_blank"><i class="fa-brands fa-youtube fa-xl"
+                    style="color: #dedede;"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

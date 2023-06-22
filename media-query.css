@@ -1,0 +1,99 @@
+@media (max-width: 935px) {
+  .btns {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .hero-section .left {
+    font-size: 2.2rem;
+    width: 36%;
+  }
+
+  .hero-section .right {
+    width: 44%;
+  }
+
+  .hero-section .left .line-2 {
+    font-size: 2.1rem;
+  }
+
+  .hero-section .left .name {
+    font-size: 2.7rem;
+  }
+
+  footer .logo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 735px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .hero-section .left {
+    width: 100%;
+    padding-inline: 30px;
+  }
+  .hero-section .right {
+    width: 90%;
+    margin: 0 auto;
+    padding-inline: 20px;
+  }
+  .hero-section .left {
+    font-size: 2.6rem;
+  }
+  .hero-section .left .line-2 {
+    font-size: 2.6rem;
+  }
+
+  .hero-section .left .name {
+    font-size: 3rem;
+  }
+
+  footer .logo {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 491px) {
+  .hero-section .left {
+    width: 100%;
+    padding-inline: 8px;
+  }
+  .hero-section .left {
+    font-size: 2rem;
+  }
+  .hero-section .left .line-2 {
+    font-size: 2rem;
+  }
+
+  .hero-section .left .name {
+    font-size: 2.3rem;
+  }
+
+  footer .logo {
+    font-size: 1.7rem;
+  }
+  .nav-links-container {
+    display: none;
+  }
+
+  nav .bars {
+    display: block;
+  }
+
+  .footer-social-links i {
+    -webkit-text-fill-color: rgb(201, 201, 201);
+    font-size: 20px;
+  }
+  .footer-social-links i:hover {
+    font-size: 25px;
+  }
+
+  .hamburger {
+    display: contents;
+  }
+}
