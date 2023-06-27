@@ -221,7 +221,7 @@ nav li {
 /*section-2*/
 
 .section-2 {
-  padding-block: 4rem;
+  padding-block: 3.5rem;
   width: 90%;
   margin: auto;
 }
@@ -229,16 +229,19 @@ nav li {
 .section-2 h1 {
   font-size: 2.5rem;
   color: rgb(194, 194, 194);
+  padding: 30px;
 }
 
 .projects-cont {
   margin-block: 2rem;
   flex-wrap: wrap;
   row-gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-box img {
-  width: 550px;
+  width: 380px;
   background-size: contain;
   border-radius: 20px;
 }
