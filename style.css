@@ -17,12 +17,11 @@
 
 .container {
   overflow: hidden;
-  pad
 }
 
 .pad-in-5rem {
   padding-inline: 5rem;
-} 
+}
 
 body {
   background-color: var(--accent-dark-color);
@@ -112,7 +111,7 @@ nav li {
 }
 
 .contact-btn {
-  background: linear-gradient(to right bottom, skyblue, grey );
+  background: linear-gradient(to right bottom, skyblue, grey);
   border: none;
   border-radius: 17px;
   padding: 10px 17px;
@@ -121,7 +120,7 @@ nav li {
   transition: 0.1s all ease-in-out;
 }
 .contact-btn:hover {
-  background: linear-gradient(to left top, rgb(122, 181, 204), grey );
+  background: linear-gradient(to left top, rgb(122, 181, 204), grey);
   font-size: 15.2px;
 }
 
@@ -223,13 +222,52 @@ nav li {
 
 .section-2 {
   padding-block: 4rem;
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
 .section-2 h1 {
   font-size: 2.5rem;
   color: rgb(194, 194, 194);
+}
+
+.projects-cont {
+  margin-block: 2rem;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.project-box img {
+  width: 550px;
+  background-size: contain;
+  border-radius: 20px;
+}
+
+.project-box img:hover {
+  
+}
+
+.project-box {
+  background-color: rgba(65, 64, 64, 0.76);
+  width: fit-content;
+  border-radius: 20px;
+  max-width: fit-content;
+  flex-basis: 45%;
+  margin-inline: 20px;
+  margin-block: 20px;
+  box-shadow: 8px 5px 20px rgba(97, 97, 97, 0.534);
+}
+
+.project-text-mid { 
+  font-family: poppins;
+  margin-block: 10px;
+  margin-inline: 20px;
+  font-size: 1.5rem;
+ 
+}
+
+.project-text-mid:hover {
+  color: rgb(182, 182, 182); 
 }
 
 /*footer*/
@@ -283,7 +321,7 @@ footer li:hover {
 .footer-social-links i {
   -webkit-text-fill-color: rgb(192, 191, 191);
   font-size: 23px;
-  transition: 0.25s  smooth all ease-in-out;
+  transition: 0.25s smooth all ease-in-out;
 }
 
 .footer-social-links i:hover {
