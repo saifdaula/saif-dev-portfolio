@@ -128,3 +128,9 @@
     margin-block: 0.5rem;
   }
 }
+
+@media (min-width: 1400px) {
+  .project-box img {
+    width: 490px;
+  }
+}

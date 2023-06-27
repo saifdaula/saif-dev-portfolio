@@ -244,10 +244,11 @@ nav li {
   width: 380px;
   background-size: contain;
   border-radius: 20px;
+  transition: 0.25s all ease-in-out;
 }
 
 .project-box img:hover {
-  
+  scale: 1.02;
 }
 
 .project-box {
